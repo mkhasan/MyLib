@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/usrc/MyLib/src/util.cpp
+util.h
+/home/usrc/MyLib/src/util.h
+stdio.h
+-
+unistd.h
+-
+
+/home/usrc/MyLib/src/util.h
+string
+-
+
