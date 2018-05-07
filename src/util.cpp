@@ -108,7 +108,7 @@ uint8_t MY_LIB::crcCalc(uint32_t const message, int const msgLen, uint32_t polyn
     const uint32_t mask = 1 << (msgLen-1);
     //const int maxIt = msgLen;
 
-    printf("poly is %x \n", polynom);
+    //printf("poly is %x \n", polynom);
     /*
      * Initially, the dividend is the remainder.
      *
@@ -137,7 +137,7 @@ uint8_t MY_LIB::crcCalc(uint32_t const message, int const msgLen, uint32_t polyn
          * Shift the next bit of the message into the remainder.
          */
         remainder = (remainder << 1);
-        printf("it %d: remainder is %x \n", msgLen-bit, remainder);
+        //printf("it %d: remainder is %x \n", msgLen-bit, remainder);
     }
 
     /*

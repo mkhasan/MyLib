@@ -1,0 +1,1 @@
+cmake ../MyLib/ -G"Eclipse CDT4 - Unix Makefiles"

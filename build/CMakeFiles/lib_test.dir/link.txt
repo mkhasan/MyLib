@@ -1,1 +1,0 @@
-/usr/bin/c++   -ggdb -Wall -fpermissive -Wno-narrowing  -rdynamic CMakeFiles/lib_test.dir/src/lib_test.cpp.o  -o ../bin/lib_test -Wl,-rpath,/home/usrc/MyLib/lib ../lib/libUtil.so 

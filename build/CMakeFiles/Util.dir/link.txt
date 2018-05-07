@@ -1,1 +1,0 @@
-/usr/bin/c++ -fPIC  -ggdb -Wall -fpermissive -Wno-narrowing  -shared -Wl,-soname,libUtil.so -o ../lib/libUtil.so CMakeFiles/Util.dir/src/util.cpp.o 
