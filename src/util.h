@@ -27,6 +27,7 @@ namespace MY_LIB {
 	int GetDegree(uint32_t polynom);
 
 
+
 }
 
 

@@ -12,13 +12,17 @@
 #include <stdio.h>
 #include <unistd.h>
 #include <assert.h>
+#include <string>
 
 #define MAX_DEVICE_STR_LEN 50
 
 using namespace std;
 
 void MY_LIB::TestPrint() {
-	printf("Hello Hasan \n");
+	string str = "Hello Str";
+	printf("Hello World %s \n", str.c_str());
+
+
 }
 
 

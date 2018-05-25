@@ -10,7 +10,17 @@ using namespace MY_LIB;
 
 //#define
 
+int SayHello() {
+	int ret = 0;
+	printf("Hello everyone \n");
+	TestPrint();
 
+	for (int i=0; i<200; i++) {
+		printf("test %d \n", i);
+	}
+
+	return ret;
+}
 
 int main() {
 
@@ -31,6 +41,11 @@ int main() {
 
 	//printf( "order is %x \n", GetDegree(0b11001));
 	printf( "remainder is %x \n", rem);
+
+	int val = SayHello();
+
+	printf("SayHello returned %d \n", val);
+
 	return 0;
 }
 
