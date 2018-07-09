@@ -6,13 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/usrc/MyLib/src/lib_test.cpp
+/home/usrc/hdd/usrc/MyLib/src/lib_test.cpp
 util.h
-/home/usrc/MyLib/src/util.h
+/home/usrc/hdd/usrc/MyLib/src/util.h
 iostream
 -
+stdio.h
+-
 
-/home/usrc/MyLib/src/util.h
+/home/usrc/hdd/usrc/MyLib/src/util.h
 string
 -
 

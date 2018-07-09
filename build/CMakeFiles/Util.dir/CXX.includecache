@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/usrc/MyLib/src/util.cpp
+/home/usrc/hdd/usrc/MyLib/src/util.cpp
 util.h
-/home/usrc/MyLib/src/util.h
+/home/usrc/hdd/usrc/MyLib/src/util.h
 stdio.h
 -
 unistd.h
@@ -18,7 +18,7 @@ assert.h
 string
 -
 
-/home/usrc/MyLib/src/util.h
+/home/usrc/hdd/usrc/MyLib/src/util.h
 string
 -
 

@@ -12,6 +12,11 @@
 
 #define POLYNOMIAL 0b11001000;//0xD8  /* 11011 followed by 0's */
 
+typedef unsigned char uint8_t;
+typedef unsigned short uint16_t;
+typedef unsigned int uint32_t;
+
+
 namespace MY_LIB {
 
 

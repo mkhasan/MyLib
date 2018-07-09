@@ -3,6 +3,7 @@
 #include "util.h"
 
 #include <iostream>
+#include <stdio.h>
 
 using namespace std;
 using namespace MY_LIB;
@@ -40,11 +41,8 @@ int main() {
 	uint8_t rem = crcCalc(uint32_t(1), 8, 0x19 );
 
 	//printf( "order is %x \n", GetDegree(0b11001));
-	printf( "remainder is %x \n", rem);
+	cout << "remainder is " << rem << endl;
 
-	int val = SayHello();
-
-	printf("SayHello returned %d \n", val);
 
 	return 0;
 }
